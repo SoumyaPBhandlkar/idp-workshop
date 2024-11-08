@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: SoumyaBhandlkar-service
+  name: soumyabhandlkar-service
   description: |
     My Example service which has something to do with APIs and database.
   links:
@@ -37,7 +37,7 @@ metadata:
     #jira/project-key: IDP
     ## Jira plugin - End
   tags:
-    - s-bhandlkar
+    - soumyabhandlkar
 spec:
   type: service
   owner: change-value
@@ -46,7 +46,7 @@ spec:
     - spotify
   providesApis:
     - petstore
-#  system: SoumyaBhandlkar-system
-#  dependsOn:
-#    - component:default/yournamehere-service
+ system: soumyabhandlkar-system
+ dependsOn:
+   - component:default/soumyabhandlkar-service
 
