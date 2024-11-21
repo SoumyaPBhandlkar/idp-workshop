@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: sBhandlkar-service
+  name: sbhandlkar-service
   description: |
     My First Example service for APIs and database.
   links:
@@ -37,7 +37,7 @@ metadata:
     #jira/project-key: IDP
     ## Jira plugin - End
   tags:
-    - sBhandlkar
+    - sbhandlkar
 spec:
   type: service
   owner: TeamA
