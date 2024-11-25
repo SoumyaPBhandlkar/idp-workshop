@@ -37,7 +37,7 @@ metadata:
     #jira/project-key: IDP
     ## Jira plugin - End
   tags:
-    - yournamehere
+    - sbhandlkar
 spec:
   type: service
   owner: change-value
